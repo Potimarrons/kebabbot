@@ -134,7 +134,7 @@ kebabChannel.on('postgres_changes', {
 kebabChannel.subscribe();
 
 // --- Express endpoint pour ton site ---
-const app = express();
+/*const app = express();
 app.use(express.json());
 
 app.post('/send', (req, res) => {
@@ -163,7 +163,7 @@ app.get('/ping', (req, res) => {
 });
 
 // --- Lancer Express ---
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 10000;*/
 
 // --- Démarrer le bot Discord ---
 bot.login(DISCORD_TOKEN);
